@@ -6,6 +6,7 @@
         public required Student Student { get; set; }
         public required Teacher Teacher { get; set; }
         public required Subject Subject { get; set; }
+        public string Name {get;set}
 
         public override string ToString()
         {

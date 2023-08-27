@@ -14,6 +14,7 @@ namespace EKundalik.Domain.Models
         public GradeEnum GradeEnum { get; set; }
         public DateTime  Date { get; set; }
         public override string ToString()
+    
         {
             return $"GradeId:{GradeId},\n StudentTeacher:{StudentTeacher},\n GradeEnum:{GradeEnum},\n Date:{Date}";
         }
